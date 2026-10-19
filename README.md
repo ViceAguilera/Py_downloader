@@ -1,15 +1,37 @@
-# Descargador YouTube
+# Descargador de YouTube a MP3 y MP4
 
 Aplicación de escritorio mínima para descargar videos de YouTube como MP3 (audio) o MP4 (video).
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)
 ![yt-dlp](https://img.shields.io/badge/yt--dlp-FF0000?style=flat)
-![Licencia](https://img.shields.io/badge/licencia-MIT-green?style=flat)
+![Estado](https://img.shields.io/badge/estado-activo-brightgreen?style=flat)
+![Licencia](https://img.shields.io/badge/licencia-MIT-blue?style=flat)
 ![Último commit](https://img.shields.io/github/last-commit/ViceAguilera/Py_downloader?style=flat)
+
+<!-- Demo: agrega una captura o GIF en docs/demo.gif y descomenta la línea siguiente -->
+<!-- <p align="center"><img src="docs/demo.gif" alt="Captura de la aplicación descargadora de YouTube" width="800"></p> -->
+
+## Tabla de contenidos
+
+- [Descripción](#descripción)
+- [Estado del proyecto](#estado-del-proyecto)
+- [Características](#características)
+- [Tecnologías](#tecnologías)
+- [Requisitos](#requisitos)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Mejoras pendientes](#mejoras-pendientes)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Licencia](#licencia)
+- [Autor](#autor)
 
 ## Descripción
 
 Interfaz gráfica sencilla (Tkinter) que envuelve a `yt-dlp` y `ffmpeg`. Pegas el link, eliges el formato y la descarga queda en `Descargas\musica`, con barra de progreso.
+
+## Estado del proyecto
+
+**Activo.** Aplicación de uso personal que se mantiene al día con los cambios de `yt-dlp`.
 
 ## Características
 
@@ -33,6 +55,15 @@ Interfaz gráfica sencilla (Tkinter) que envuelve a `yt-dlp` y `ffmpeg`. Pegas e
 ```powershell
 winget install yt-dlp.yt-dlp   # instala también ffmpeg
 ```
+
+## Instalación
+
+```bash
+git clone https://github.com/ViceAguilera/Py_downloader.git
+cd Py_downloader
+```
+
+No hay dependencias de pip que instalar; solo se necesitan `yt-dlp` y `ffmpeg` (ver Requisitos).
 
 ## Uso
 
