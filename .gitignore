@@ -2,3 +2,7 @@
 __pycache__/
 *.pyc
 .env
+
+# Archivos de asistentes de IA
+CLAUDE.md
+AGENTS.md
